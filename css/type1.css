@@ -1,0 +1,65 @@
+
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100%;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+.container{
+	max-width: 1180px;
+	margin: 0px auto;                                                                                                                                                                                                                                                                                                                                                
+}
+.content{
+	flex: 1 1 auto; 
+}
+.cross-stitch{
+	padding: 50px 0;
+}
+.cross-stitch_row{
+	display: flex;
+	justify-content: space-between;
+}
+.cross-stitch_body{
+	color: #fff;
+}
+.cross-stitch_main{
+	display: flex;
+}
+.cross-stitch_title{
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	font-size: 60px;
+	margin: 0px 0px 40px 0px;
+}
+.cross-stitch_text{
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	font-size: 20px;
+	margin: 0px 20px 40px 0px;
+}
+.atbash_image{
+	flex: 0 0 430;
+}
+.cross-stitch_image{
+	max-width: 100%;
+}
+.footer{}
+.container{}
+.footer_row{
+	display: flex;
+	align-self: flex-end;
+	justify-content: center;
+}
+.footer_text{
+	font-size: 12px;
+	letter-spacing: 0.3px;
+}
